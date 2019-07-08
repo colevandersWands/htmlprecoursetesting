@@ -38,6 +38,53 @@ The HTML
 ```
 
 DOM tree
+<ul class="domTree"><li class="t1"><code>HTML</code><ul><li class="t1"><code>HEAD</code></li><li class="t1"><code>BODY</code><ul><li class="t1"><code>TABLE</code><ul><li class="t3"><code>#text</code>: <span>
+  </span></li><li class="t1"><code>TBODY</code><ul><li class="t1"><code>TR</code><ul><li class="t3"><code>#text</code>: <span>
+    </span></li><li class="t1"><code>TD</code><ul><li class="t3"><code>#text</code>: <span>top left</span></li></ul></li><li class="t3"><code>#text</code>: <span>
+    </span></li><li class="t1"><code>TD</code><ul><li class="t3"><code>#text</code>: <span>top right</span></li></ul></li><li class="t3"><code>#text</code>: <span>
+  </span></li></ul></li><li class="t3"><code>#text</code>: <span>
+  </span></li><li class="t1"><code>TR</code><ul><li class="t3"><code>#text</code>: <span>
+    </span></li><li class="t1"><code>TD</code><ul><li class="t3"><code>#text</code>: <span>bottom left</span></li></ul></li><li class="t3"><code>#text</code>: <span>
+    </span></li><li class="t1"><code>TD</code><ul><li class="t3"><code>#text</code>: <span>bottom right</span></li></ul></li><li class="t3"><code>#text</code>: <span>
+  </span></li></ul></li><li class="t3"><code>#text</code>: <span>
+</span></li></ul></li></ul></li></ul></li></ul></li></ul>
+
+
+__live__
+<table>
+  <tr>
+    <td>top left</td>
+    <td>top right</td>
+  </tr>
+  <tr>
+    <td>bottom left</td>
+    <td>bottom right</td>
+  </tr>
+</table>
+
+
+
+<ul class="domTree"><li class="t10">DOCTYPE: <code>html</code></li><li class="t1"><code>HTML</code><ul><li class="t1"><code>HEAD</code></li><li class="t1"><code>BODY</code><ul><li class="t3"><code>#text</code>: <span>...</span></li></ul></li></ul></li></ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
 ```
 HTML
 |- HEAD
@@ -65,15 +112,3 @@ HTML
       |  |- #text:
       |- #text:
 ```
-
-__live__
-<table>
-  <tr>
-    <td>top left</td>
-    <td>top right</td>
-  </tr>
-  <tr>
-    <td>bottom left</td>
-    <td>bottom right</td>
-  </tr>
-</table>
