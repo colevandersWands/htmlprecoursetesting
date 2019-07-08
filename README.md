@@ -23,6 +23,8 @@ __live__
 
 ## tables
 
+[dom viewer permalink](https://software.hixie.ch/utilities/js/live-dom-viewer/?%3Ctable%3E%0A%20%20%3Ctr%3E%0A%20%20%20%20%3Ctd%3Etop%20left%3C%2Ftd%3E%0A%20%20%20%20%3Ctd%3Etop%20right%3C%2Ftd%3E%0A%20%20%3C%2Ftr%3E%0A%20%20%3Ctr%3E%0A%20%20%20%20%3Ctd%3Ebottom%20left%3C%2Ftd%3E%0A%20%20%20%20%3Ctd%3Ebottom%20right%3C%2Ftd%3E%0A%20%20%3C%2Ftr%3E%0A%3C%2Ftable%3E)
+
 The HTML
 ```html
 <table>
