@@ -40,16 +40,59 @@ The HTML
 ```
 
 DOM tree
-<ul class="domTree"><li class="t1"><code>HTML</code><ul><li class="t1"><code>HEAD</code></li><li class="t1"><code>BODY</code><ul><li class="t1"><code>TABLE</code> <span class="t2"><code class="attribute name">id</code>="<code class="attribute value">inspect-me</code>"</span><ul><li class="t3"><code>#text</code>: <span>
-  </span></li><li class="t1"><code>TBODY</code><ul><li class="t1"><code>TR</code><ul><li class="t3"><code>#text</code>: <span>
-    </span></li><li class="t1"><code>TD</code><ul><li class="t3"><code>#text</code>: <span>top left</span></li></ul></li><li class="t3"><code>#text</code>: <span>
-    </span></li><li class="t1"><code>TD</code><ul><li class="t3"><code>#text</code>: <span>top right</span></li></ul></li><li class="t3"><code>#text</code>: <span>
-  </span></li></ul></li><li class="t3"><code>#text</code>: <span>
-  </span></li><li class="t1"><code>TR</code><ul><li class="t3"><code>#text</code>: <span>
-    </span></li><li class="t1"><code>TD</code><ul><li class="t3"><code>#text</code>: <span>bottom left</span></li></ul></li><li class="t3"><code>#text</code>: <span>
-    </span></li><li class="t1"><code>TD</code><ul><li class="t3"><code>#text</code>: <span>bottom right</span></li></ul></li><li class="t3"><code>#text</code>: <span>
-  </span></li></ul></li><li class="t3"><code>#text</code>: <span>
-</span></li></ul></li></ul></li></ul></li></ul></li></ul>
+<li class="t1"><code>TABLE</code>
+  <ul>
+    <li class="t3"><code>#text</code>: <span>
+  </span></li>
+    <li class="t1"><code>TBODY</code>
+      <ul>
+        <li class="t1"><code>TR</code>
+          <ul>
+            <li class="t3"><code>#text</code>: <span>
+    </span></li>
+            <li class="t1"><code>TD</code>
+              <ul>
+                <li class="t3"><code>#text</code>: <span>top left</span></li>
+              </ul>
+            </li>
+            <li class="t3"><code>#text</code>: <span>
+    </span></li>
+            <li class="t1"><code>TD</code>
+              <ul>
+                <li class="t3"><code>#text</code>: <span>top right</span></li>
+              </ul>
+            </li>
+            <li class="t3"><code>#text</code>: <span>
+  </span></li>
+          </ul>
+        </li>
+        <li class="t3"><code>#text</code>: <span>
+  </span></li>
+        <li class="t1"><code>TR</code>
+          <ul>
+            <li class="t3"><code>#text</code>: <span>
+    </span></li>
+            <li class="t1"><code>TD</code>
+              <ul>
+                <li class="t3"><code>#text</code>: <span>bottom left</span></li>
+              </ul>
+            </li>
+            <li class="t3"><code>#text</code>: <span>
+    </span></li>
+            <li class="t1"><code>TD</code>
+              <ul>
+                <li class="t3"><code>#text</code>: <span>bottom right</span></li>
+              </ul>
+            </li>
+            <li class="t3"><code>#text</code>: <span>
+  </span></li>
+          </ul>
+        </li>
+        <li class="t3"><code>#text</code>: <span>
+</span></li>
+      </ul>
+    </li>
+  </ul>
 
 __live__
 <table id = "inspect-me">
