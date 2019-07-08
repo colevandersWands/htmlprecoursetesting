@@ -23,11 +23,11 @@ __live__
 
 ## tables
 
-[dom viewer permalink](https://software.hixie.ch/utilities/js/live-dom-viewer/?%3Ctable%3E%0A%20%20%3Ctr%3E%0A%20%20%20%20%3Ctd%3Etop%20left%3C%2Ftd%3E%0A%20%20%20%20%3Ctd%3Etop%20right%3C%2Ftd%3E%0A%20%20%3C%2Ftr%3E%0A%20%20%3Ctr%3E%0A%20%20%20%20%3Ctd%3Ebottom%20left%3C%2Ftd%3E%0A%20%20%20%20%3Ctd%3Ebottom%20right%3C%2Ftd%3E%0A%20%20%3C%2Ftr%3E%0A%3C%2Ftable%3E)
+[dom viewer permalink](https://software.hixie.ch/utilities/js/live-dom-viewer/?%3Ctable%20id%3D%22inspect-me%22%3E%0A%20%20%3Ctr%3E%0A%20%20%20%20%3Ctd%3Etop%20left%3C%2Ftd%3E%0A%20%20%20%20%3Ctd%3Etop%20right%3C%2Ftd%3E%0A%20%20%3C%2Ftr%3E%0A%20%20%3Ctr%3E%0A%20%20%20%20%3Ctd%3Ebottom%20left%3C%2Ftd%3E%0A%20%20%20%20%3Ctd%3Ebottom%20right%3C%2Ftd%3E%0A%20%20%3C%2Ftr%3E%0A%3C%2Ftable%3E)
 
 The HTML
 ```html
-<table>
+<table id="inspect-me">
   <tr>
     <td>top left</td>
     <td>top right</td>
@@ -40,7 +40,7 @@ The HTML
 ```
 
 DOM tree
-<ul class="domTree"><li class="t1"><code>HTML</code><ul><li class="t1"><code>HEAD</code></li><li class="t1"><code>BODY</code><ul><li class="t1"><code>TABLE</code><ul><li class="t3"><code>#text</code>: <span>
+<ul class="domTree"><li class="t1"><code>HTML</code><ul><li class="t1"><code>HEAD</code></li><li class="t1"><code>BODY</code><ul><li class="t1"><code>TABLE</code> <span class="t2"><code class="attribute name">id</code>="<code class="attribute value">inspect-me</code>"</span><ul><li class="t3"><code>#text</code>: <span>
   </span></li><li class="t1"><code>TBODY</code><ul><li class="t1"><code>TR</code><ul><li class="t3"><code>#text</code>: <span>
     </span></li><li class="t1"><code>TD</code><ul><li class="t3"><code>#text</code>: <span>top left</span></li></ul></li><li class="t3"><code>#text</code>: <span>
     </span></li><li class="t1"><code>TD</code><ul><li class="t3"><code>#text</code>: <span>top right</span></li></ul></li><li class="t3"><code>#text</code>: <span>
@@ -51,9 +51,8 @@ DOM tree
   </span></li></ul></li><li class="t3"><code>#text</code>: <span>
 </span></li></ul></li></ul></li></ul></li></ul></li></ul>
 
-
 __live__
-<table>
+<table id = "inspect-me">
   <tr>
     <td>top left</td>
     <td>top right</td>
@@ -63,14 +62,6 @@ __live__
     <td>bottom right</td>
   </tr>
 </table>
-
-
-
-<ul class="domTree"><li class="t10">DOCTYPE: <code>html</code></li><li class="t1"><code>HTML</code><ul><li class="t1"><code>HEAD</code></li><li class="t1"><code>BODY</code><ul><li class="t3"><code>#text</code>: <span>...</span></li></ul></li></ul></li></ul>
-
-
-
-
 
 
 
