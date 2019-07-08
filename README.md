@@ -110,22 +110,59 @@ __live__
 ## table without dev-friendly formatting
 
 
-[dom viewer permalink](https://software.hixie.ch/utilities/js/live-dom-viewer/?%3Ctable%20id%3D%22inspect-me%22%3E%3Ctr%3E%3Ctd%3Etop%20left%3C%2Ftd%3E%3Ctd%3Etop%20right%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd%3Ebottom%20left%3C%2Ftd%3E%3Ctd%3Ebottom%20right%3C%2Ftd%3E%3C%2Ftr%3E%3C%2Ftable%3E)
+[dom viewer permalink](https://software.hixie.ch/utilities/js/live-dom-viewer/?%3Ctable%3E%3Ctr%3E%3Ctd%3Etop%20left%3C%2Ftd%3E%3Ctd%3Etop%20right%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd%3Ebottom%20left%3C%2Ftd%3E%3Ctd%3Ebottom%20right%3C%2Ftd%3E%3C%2Ftr%3E%3C%2Ftable%3E)
 
 ### HTML
 ```html
-<table id="inspect-me"><tr><td>top left</td><td>top right</td></tr><tr><td>bottom left</td><td>bottom right</td></tr></table>
+<table><tr><td>top left</td><td>top right</td></tr><tr><td>bottom left</td><td>bottom right</td></tr></table>
 ```
 
 ### DOM listing
 
-<ul class="domTree"><li class="t1"><code>HTML</code><ul><li class="t1"><code>HEAD</code></li><li class="t1"><code>BODY</code><ul><li class="t1"><code>TABLE</code> <span class="t2"><code class="attribute name">id</code>="<code class="attribute value">inspect-me</code>"</span><ul><li class="t1"><code>TBODY</code><ul><li class="t1"><code>TR</code><ul><li class="t1"><code>TD</code><ul><li class="t3"><code>#text</code>: <span>top left</span></li></ul></li><li class="t1"><code>TD</code><ul><li class="t3"><code>#text</code>: <span>top right</span></li></ul></li></ul></li><li class="t1"><code>TR</code><ul><li class="t1"><code>TD</code><ul><li class="t3"><code>#text</code>: <span>bottom left</span></li></ul></li><li class="t1"><code>TD</code><ul><li class="t3"><code>#text</code>: <span>bottom right</span></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul>
+<ul>
+	<li class="t1"><code>TABLE</code>
+		<ul>
+			<li class="t1"><code>TBODY</code>
+				<ul>
+					<li class="t1"><code>TR</code>
+						<ul>
+							<li class="t1"><code>TD</code>
+								<ul>
+									<li class="t3"><code>#text</code>: <span>top left</span></li>
+								</ul>
+							</li>
+							<li class="t1"><code>TD</code>
+								<ul>
+									<li class="t3"><code>#text</code>: <span>top right</span></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="t1"><code>TR</code>
+						<ul>
+							<li class="t1"><code>TD</code>
+								<ul>
+									<li class="t3"><code>#text</code>: <span>bottom left</span></li>
+								</ul>
+							</li>
+							<li class="t1"><code>TD</code>
+								<ul>
+									<li class="t3"><code>#text</code>: <span>bottom right</span></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
 
 
 ### result
 
 
-<table id="inspect-me"><tr><td>top left</td><td>top right</td></tr><tr><td>bottom left</td><td>bottom right</td></tr></table>
+<table><tr><td>top left</td><td>top right</td></tr><tr><td>bottom left</td><td>bottom right</td></tr></table>
 
 
 
